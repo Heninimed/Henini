@@ -9,7 +9,21 @@ body {
     padding: 20px;
     height: 130px;
  }
- 
+  .inline a {
+    display: inline-block;
+    background-color: #0077cc;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .inline a:hover {
+    background-color: #005599;
+  }
  .inline h3 {
     display: inline-block;
     margin-right: 10px;
